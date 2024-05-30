@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+
+
+    <h1>{{user.fullName}}</h1>
+    <div id class="zo">
+    <div class="photo" >
+        <img src={{user.photo}} alt="my-pic" width="300">
+    </div>
+    </div>
+    <div class="pp">
+    <p>I am a recent graduate from the University of KwaZulu-Natal (UKZN) with a strong foundation in machine learning, data analysis, and web development. My academic journey has equipped me with robust technical skills in Python, JavaScript, CSS, and HTML, as well as practical experience in developing innovative solutions such as a sentiment analysis tool for climate change and a responsive web page using ViteJS with Handlebars. </p>
+</div>
+   
+    <div class="sphe">
+        {{user.phone}}<br>
+        {{user.email}} <br>
+    
+    </div>
+    <h1>Education</h1>
+    <div class="edu">
+        {{education.institutionName}}<br>
+        {{education.caurse}}<br>
+        {{education.enrolled}}<br>
+        {{education.finalYear}}<br>
+
+    </div>
+    <h1>Experience</h1>
+    <div class="expo">{{experience.companyName}}<br>
+        {{experience.position}}<br>
+        {{experience.years}},<br>
+        {{experience.description}}<br>
+    </div>
+    <div class="skill">
+        <h1>Skills</h1>
+        {{Skills.aSkill}}<br>
+        {{Skills.bSkill}}<br>
+        {{Skills.cSkill}}<br>
+    </div>
+    <div class="footer">
+        {{footer.menu}}
+    </div>
 </body>
+
 </html>

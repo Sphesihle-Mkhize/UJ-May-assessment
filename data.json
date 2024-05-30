@@ -1,38 +1,31 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Sphesihle Mkhize",
+        "photo" : "my-pic.jpg",
+        "phone" : "0720679397",
+        "email" : "zolekam1013@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University of KwaZulu-Natal",
+        "caurse" : "Applied Mathematics and Statistics",
+        "enrolled" : " Year-enrolled 2020",
+        "finalYear" : "Year-finished 2023"
+       
+
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "experience" : {
+        "companyName" : "Deloite",
+        "position" : "   Full stack Developer",
+        "years": " 5 years",
+       
+        "aSkill" : "Computor Programming", 
+       "bSkill" : "Machine Learning",
+        "cSkill": "Webpage Development"
+        
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
-}
+    "footer" : {
+        "menu": "@MaMkhize Resume                      Reserved South Africa."
+    }
+        
+          
+}       
