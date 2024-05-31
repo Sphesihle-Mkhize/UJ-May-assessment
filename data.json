@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName" : "Sphesihle Mkhize",
-        "photo" : "my-pic.jpg",
+        "photo" : "./my-pic.jpg",
         "phone" : "0720679397",
         "email" : "zolekam1013@gmail.com"
     },
@@ -15,16 +15,17 @@
     },
     "experience" : {
         "companyName" : "Deloite",
-        "position" : "   Full stack Developer",
+        "position" : "Full stack Developer",
         "years": " 5 years",
-       
+    },
+    "Skills"
         "aSkill" : "Computor Programming", 
        "bSkill" : "Machine Learning",
         "cSkill": "Webpage Development"
         
     },
     "footer" : {
-        "menu": "@MaMkhize Resume                      Reserved South Africa."
+        "menu": "MaMkhize Resume                      "
     }
         
           
