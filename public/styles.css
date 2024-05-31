@@ -29,38 +29,34 @@ text-align: center;
 }
 .skill{
     text-align: center;
+    
 }
 
 .sphe{
     text-align: center;
-}
-.photo img{
+} 
+
+img{
     clip-path: circle(130px);
-    align-items: center;
-    border-image-repeat: repeat;
-   
-    justify-content: center;
-    object-fit: cover;
+    
     
 }
-.photo {
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    margin-inline-end: auto;
-}
+
+
 .footer{
     background-color:rgb(175, 109, 28) ;
     text-align: center;
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 90px;
+    
 }
 .zo{
-  
+  text-align: center;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 100px;
+    clip-path: ellipse(120);
 }
 .pp{
-    margin-left: 100px;
+    margin: auto;
 }
