@@ -16,9 +16,9 @@
     "experience" : {
         "companyName" : "Deloite",
         "position" : "Full stack Developer",
-        "years": " 5 years",
+        "years": " 5 years"
     },
-    "Skills"
+    "Skills":{
         "aSkill" : "Computor Programming", 
        "bSkill" : "Machine Learning",
         "cSkill": "Webpage Development"
